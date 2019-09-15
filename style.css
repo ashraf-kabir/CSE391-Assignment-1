@@ -1,0 +1,40 @@
+.s1 {
+    padding: 0 150px 0 150px;
+    text-align: center;
+}
+
+#head3 {
+    text-align: center;
+}
+#head4 {
+    text-align: center;
+}
+#sp1 {
+    color: blueviolet;
+}
+#sp2 {
+    color: red;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#section1 {
+    margin: 30px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#hobby {
+    margin: 60px;
+    padding-bottom: 300px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#background {
+    color: green;
+    text-align: center;
+    padding: 0 200px 0 200px;
+}
