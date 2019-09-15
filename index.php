@@ -111,6 +111,22 @@
             </div>
         </section>
         <hr>
+        <br>
+        <section>
+            <div>
+                <p><big>This is a bigger text</big></p><br>
+                <h2>Favourite links:</h2>
+                <ol>
+                    <li>To visit <a href="https://github.com/" target="_blank">Github</a></li>
+                    <li>To visit <a href="https://www.google.com/" target="_blank">Google</a></li>
+                    <li>To visit <a href="https://en.wikipedia.org/" target="_blank">Wikipedia</a></li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <br>
+
+        
 
     </div>
     
