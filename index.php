@@ -11,7 +11,7 @@
 
     <div id="personalinfo">
         <section class="s1">
-            <h3 id="head3">Personal Info: (Part 01)</h3><br>
+            <h2 id="head3">Personal Info:</h2><br>
             <h4 id="head4">S. M. Ashraf Kabir</h4>
             <p>
                 <b>Age: </b> 23<br>
@@ -23,9 +23,9 @@
     
     <br><br>
     <div id="links">
-        <h3>Set of links: (Part 02)</h3>
 
-        <section>
+        <section id="links">
+            <h3>Set of links: (Part 02)</h3>
             <h3>Internal links:</h3>
             <p>
                 <ol>
@@ -34,13 +34,21 @@
                     <li><a href="#background">Go to Background</a></li>
                 </ol>
             </p>
+
+            <h3>External links:</h3>
+            <p>
+                <ul>
+                    <li>Visit <a href="https://www.realmadrid.com/en">Real Madrid</a></li>
+                    <li>Visit <a href="https://www.fcbarcelona.com/en/">Barcelona</a></li>
+                    <li>Visit <a href="https://en.atleticodemadrid.com/">Atletico Madrid</a></li>
+                </ul>
+            </p>
         </section>
-        
         
 
         <section id="section1">
             <div>
-                <h3><span id="sp2">About me:</span></h3>
+                <h2><span id="sp2">About me:</span></h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora assumenda at ipsum ipsa provident necessitatibus possimus officiis minima cumque repudiandae obcaecati quam reiciendis, consectetur exercitationem reprehenderit quaerat commodi officia.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quod non, ipsam architecto excepturi minima, quas sed magnam quasi explicabo neque, minus facilis maiores. Amet, adipisci? Dolore tenetur fuga iste.
@@ -62,6 +70,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit sunt, consectetur nesciunt necessitatibus aspernatur obcaecati iste esse quod. Qui alias consequatur, enim ratione inventore assumenda saepe sunt quasi! Ipsum, ut.
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores officia iure quia natus perspiciatis error nihil molestias esse ex laboriosam voluptatum vitae, illo voluptates non explicabo optio porro suscipit ipsum!
                 </p>
+                <p style="text-align: center; font-size: 18px;">To know more <a href="https://github.com/ashraf-kabir" target="_blank">click here</a>
                 <hr>
             </div>
         </section>
@@ -70,8 +79,8 @@
         
         <section id="hobby">
             <div>
-                <h3>Hobby</h3>
-                <p>
+                <h2>Hobby</h2>
+                <p style="font-size: 20px;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vitae. Quaerat delectus fugiat recusandae quam possimus, iste maxime illo natus voluptatem doloribus quod minima perferendis ullam mollitia quibusdam ea eius!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quas aspernatur qui repellat quia facilis alias quisquam assumenda dolor commodi dolorum debitis illum quam sint in repellendus eligendi distinctio sed.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad amet perferendis dignissimos? Minus labore placeat accusamus ea saepe quo repellendus excepturi explicabo odit quis laborum, eligendi magnam reprehenderit sapiente.
@@ -80,13 +89,15 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perferendis dicta provident, nulla eaque ipsum neque pariatur magnam porro dolore tempora. Nihil animi officia obcaecati repellat consequuntur quam nostrum suscipit!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iste nesciunt inventore cumque, debitis ad commodi neque perferendis, molestias nemo deleniti itaque suscipit consequuntur recusandae dolorem dolores quidem sequi similique.
                 </p>
+                <p style="text-align: center; font-size: 18px;">To know more about this hobby <a href="https://en.wikipedia.org/wiki/Phishing" target="_blank">click here</a>
+                </p>
             </div>
         </section>
 
-
+        <hr>
         <section id="section2">
             <div>
-                <h3 style="color: red; text-align: right; padding-right: 150px;";>Background</h3>
+                <h2 style="color: red; text-align: right; padding-right: 200px;";>Background</h2>
                 <p id="background">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, vitae. Quaerat delectus fugiat recusandae quam possimus, iste maxime illo natus voluptatem doloribus quod minima perferendis ullam mollitia quibusdam ea eius!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quas aspernatur qui repellat quia facilis alias quisquam assumenda dolor commodi dolorum debitis illum quam sint in repellendus eligendi distinctio sed.
@@ -96,8 +107,10 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perferendis dicta provident, nulla eaque ipsum neque pariatur magnam porro dolore tempora. Nihil animi officia obcaecati repellat consequuntur quam nostrum suscipit!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iste nesciunt inventore cumque, debitis ad commodi neque perferendis, molestias nemo deleniti itaque suscipit consequuntur recusandae dolorem dolores quidem sequi similique.
                 </p>
+                <p style="text-align: center; font-size: 18px;">To know more about this background <a href="https://www.google.com/" target="_blank">click here</a>
             </div>
         </section>
+        <hr>
 
     </div>
     
