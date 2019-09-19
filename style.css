@@ -1,3 +1,7 @@
+body {
+    margin: 60px;
+    padding: 40px;
+}
 .s1 {
     padding: 0 150px 0 150px;
     text-align: center;
@@ -17,14 +21,12 @@
 }
 
 #aboutme {
-    margin: 30px;
     text-align: justify;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 #hobby {
-    margin: 60px;
     padding-bottom: 300px;
     text-align: justify;
     padding-left: 150px;
