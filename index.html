@@ -226,6 +226,18 @@
 
     <div>
         <h2>Last modified</h2>
+        <p id="path"></p>
+        <script>
+            document.getElementById("path").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+
+        <br><br>
+        <p id="loc"></p>
+        <script>
+            document.getElementById("loc").innerHTML =
+                "The full URL of this page is:<br>" + window.location.href;
+        </script>
 
     </div>
 
