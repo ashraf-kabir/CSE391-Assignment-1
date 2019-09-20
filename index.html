@@ -225,7 +225,7 @@
     </div>
 
     <div>
-        <h2>Last modified</h2>
+        <h2>Page's Location</h2>
         <p id="path"></p>
         <script>
             document.getElementById("path").innerHTML =
@@ -237,6 +237,20 @@
         <script>
             document.getElementById("loc").innerHTML =
                 "The full URL of this page is:<br>" + window.location.href;
+        </script>
+    </div>
+
+    <div>
+        <h2>Last modified</h2>
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                var x = document.lastModified;
+                document.getElementById("demo").innerHTML = x;
+            }
         </script>
 
     </div>
