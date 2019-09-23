@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>About us:</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="allcontent">
+    <header class="mainheader"> <img id="headerLogo" src="img/logo.png" alt="FastLearnBD logo image">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="tableContainer">
+      <div id="tableRow">
+
+        <section id="main">
+          <h1><big>ABOUT ME:</big></h1>
+          <div id="aboutme">
+            <p style="font-family: sans-serif;">This is S. M. Ashraf Kabir. I am 23 years old. I am from Dhaka.
+            </p>
+            <p style="text-align: justify;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora assumenda at ipsum ipsa provident
+              necessitatibus possimus officiis minima cumque repudiandae obcaecati quam reiciendis, consectetur
+              exercitationem reprehenderit quaerat commodi officia.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quod non, ipsam architecto excepturi
+              minima, quas sed magnam quasi explicabo neque, minus facilis maiores. Amet, adipisci? Dolore tenetur fuga
+              iste.
+            </p>
+            <p style="text-align: center; font-size: 18px;">To know more <a href="https://github.com/ashraf-kabir"
+                target="_blank">click here</a>
+              <hr>
+          </div>
+          <br>
+          <h2 id="returnblog">Return to our <a href="blog.html">Blog</a></h2><br>
+          <h2 id="returnblog">Return to our <a href="index.html">HOME</a></h2>
+
+          <div>
+            <h2>Page's Location</h2>
+            <p id="path"></p>
+            <script>
+              document.getElementById("path").innerHTML =
+                "Page path is: " + window.location.pathname;
+            </script>
+
+            <br><br>
+            <p id="loc"></p>
+            <script>
+              document.getElementById("loc").innerHTML =
+                "The full URL of this page is:<br>" + window.location.href;
+            </script>
+          </div>
+          <div>
+            <h2>Last modified</h2>
+
+            <p id="demo"></p>
+            <script>
+              var x = document.lastModified;
+              document.getElementById("demo").innerHTML = x;
+            </script>
+
+          </div>
+        </section>
+
+        <aside id="news">
+          <article>
+            <h2>News:</h2>
+            <p>Breakthrough for genetic hearing loss as gene editing prevents deafness in mice....<a
+                href="https://www.theguardian.com/science/2017/dec/20/breakthrough-for-genetic-hearing-loss-as-gene-editing-prevents-deafness-in-mice"
+                target="_blank">read more</a></p>
+          </article>
+          <hr>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h1>Links:</h1>
+          <ul>
+            <li><a href="http://www.educationboard.gov.bd/" target="_blank">Education Board</a></li>
+            <li><a href="http://www.bracu.ac.bd/" target="_blank">BRAC University</a></li>
+            <li><a href="http://www.moedu.gov.bd/" target="_blank">Ministry of Education</a></li>
+            <li><a href="http://www.google.com" target="_blank">Google</a></li>
+          </ul>
+        </aside>
+
+      </div>
+    </div>
+
+    <footer> &copy;Ashraf Kabir MMXVII</footer>
+
+  </div>
+</body>
+
+</html>

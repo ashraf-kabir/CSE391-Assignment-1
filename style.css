@@ -1,62 +1,190 @@
 body {
-    margin: 60px;
-    padding: 40px;
+	background-color: #b2beb5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0px;
 }
-.s1 {
-    padding: 0 150px 0 150px;
-    text-align: center;
+header.top {
+	background-color: #566559;
+	margin: 10px 10px 0px 10px;
+	height: 108px;
 }
-
-#head3 {
-    text-align: center;
+.mainheader img {
+	width: 100%;
+	height: 80%;
 }
-#head4 {
-    text-align: center;
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
 }
-#sp1 {
-    color: blueviolet;
+div#tableRow {
+	display: table-row;
 }
-#sp2 {
-    color: red;
+section#drinks {
+	display: table-cell;
+	background-color: #fff;
+	width: 20%;
+	padding: 15px;
+	vertical-align: top;
 }
-
-#aboutme {
-    text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
+section#main, section#blog {
+	display: table-cell;
+	background: #FFFFFF;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;
 }
-
-#hobby {
-    padding-bottom: 300px;
-    text-align: justify;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-#background {
-    color: green;
-    text-align: center;
-    padding: 0 200px 0 200px;
-}
-
-#links {
-    margin: 0 150px 0 150px;
-}
-
-#personalinfo {
-    padding-bottom: 250px;
+aside {
+	display: table-cell;
+	width: 20%;
+	background: #ffffff;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;
 }
 
-table {
+footer {
+	background-color: #494c49;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+	font-size: 90%;
+	clear: left;
+}
+h1 {
+	font-size: 120%;
+	color: #954b4b;
+}
+h2 {
+	font-size: 110%;
+}
+.slogan {
+	color: #954b4b;
+}
+.beanheading {
+	text-align: center;
+	line-height: 1.8em;
+}
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #fff;
+}
+
+.mainheader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainheader nav ul li {
+	display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainheader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#allcontent {
+	width: 900px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #494c49;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#annoyingad {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	width: 400px;
+}
+
+ul li.selected {
+	background-color: #c8b99c;
+}
+.postinfo {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+#blogdir {
+	color: #000000;
+	text-align: center;
+}
+#returnblog {
+	text-align: center;
+}
+
+#blogposts {
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 50px;
+	text-align: justify;
+	border-bottom: solid;
+}
+
+#tbl table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 70px;
+    width: 350px;
 }
-td, th {
+#tbl td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-tr:nth-child(even) {
+#tbl tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+#img {
+	padding-bottom: 30px;
+}
+
+#aboutme {
+	padding-top: 30px;
+}
+
+#hobby {
+	padding-top: 30px;
+}
+
+#background {
+	padding-top: 30px;
 }
