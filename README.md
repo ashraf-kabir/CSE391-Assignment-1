@@ -3,7 +3,7 @@ assignment 1
 
 basic html assignment
 
-question given on question folder
+questions are given on the question folder
 
 semester: fall 2019
 Brac University
